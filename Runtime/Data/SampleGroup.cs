@@ -52,7 +52,7 @@ namespace Unity.PerformanceTesting
         public double Percentile;
         public bool FailOnBaseline;
 
-        public SampleGroupDefinition(string name = "Totaltime", SampleUnit sampleUnit = SampleUnit.Millisecond,
+        public SampleGroupDefinition(string name = "Time", SampleUnit sampleUnit = SampleUnit.Millisecond,
             AggregationType aggregationType = AggregationType.Median, double threshold = 0.15D,
             bool increaseIsBetter = false, bool failOnBaseline = true)
         {
